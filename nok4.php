@@ -1,9 +1,9 @@
 <?php
 
-//ini_set("display_errors", 1);
-//error_reporting(-1);
+ini_set("display_errors", 1);
+error_reporting(-1);
 
-//echo "7777";
+echo "7777";
 
 	$limit=(int)$_REQUEST['limit'];
 	if($limit<1)
@@ -27,6 +27,10 @@ function nod($a, $b){
 }
 
 
+
+	//$amin=($p1+$p2)*9;
+	
+//echo 'Подбор минимума. При каждой перезагрузке разные результаты, экспериментируйте!';
 	$res=array();
 
 
